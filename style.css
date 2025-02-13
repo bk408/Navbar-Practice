@@ -10,8 +10,12 @@ body {
 }
 
 .parent {
-    height: 100vh;
-    display: flex;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  right: 0;
+  top: 0;
 }
 
 .child {
@@ -31,10 +35,10 @@ body {
 }
 
 .nav-details {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin: 25px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 25px;
 }
 
 ul {
@@ -46,7 +50,6 @@ ul {
 }
 
 li {
-  
   color: #fff;
   cursor: pointer;
 }
